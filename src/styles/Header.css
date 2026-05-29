@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 18px;
+}
+
+.bellWrap {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.bellIcon {
+  width: 15px;
+  height: 15px;
+  opacity: 0.9;
+}
+
+.headerInfo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.headerName {
+  font-size: 13px;
+  font-weight: 500;
+  color: #222;
+  letter-spacing: 0.1px;
+}
+
+.headerAvatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #dbe3e8;
+  color: #5f6972;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 700;
+}
